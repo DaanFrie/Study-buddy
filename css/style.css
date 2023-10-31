@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #FFF2D8;
+    font-family: 'Kanit', sans-serif;
+}
+
+p {
+    font-size: 2rem;
+    line-height: 3.2rem;
+    margin: 3vw;
+    width: 35vw;
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-family: 'Young Serif', serif;
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-family: 'Young Serif', serif;
+}
+
+/* colors:
+#FFF2D8
+#EAD7BB
+#BCA37F
+#113946
+ */
+
+nav {
+    background-color: #113946;
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    border-bottom: 5px solid #BCA37F;
+}
+
+#h1-container {
+    display: flex;
+    justify-content: center;
+}
+
+#section-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#section-2 {
+    background-color: #EAD7BB;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-next-to {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
+}
+
+img {
+    width: 25vw;
+    margin: 3vw;
+    border-radius: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    padding: 1.7vw 0;
+    border-radius: 7px;
+    width: 12vw;
+    text-align: center;
+}
+
+#p-center {
+    display: flex;
+    justify-content: center;
+}
+
+nav a:hover {
+    background-color: #BCA37F;
+    color: black;
+}
+
+footer img {
+    width: 4.5vw;
+    height: 4.5vw;
+    margin: 2vw;
+    border-radius: 100%;
+}
+
+footer {
+    background-color: #BCA37F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    margin: 2vw;
+}
+
+footer img:hover {
+    opacity: 0.5;
+}
+
+footer a:hover {
+    color: white;
+    opacity: 0.4;
+}
